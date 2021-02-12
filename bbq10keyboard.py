@@ -23,7 +23,7 @@
 `bbq10keyboard`
 ================================================================================
 
-CircuitPython library for interfaceing the BB Q10 Keyboard over I2C.
+CircuitPython library for interfacing the BB Q10 Keyboard over I2C.
 
 * Author(s): arturo182
 

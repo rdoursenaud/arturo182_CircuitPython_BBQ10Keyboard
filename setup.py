@@ -22,12 +22,12 @@ setup(
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
 
-    description='CircuitPython library for interfaceing the BB Q10 Keyboard over I2C.',
+    description='CircuitPython library for interfacing the BB Q10 Keyboard over I2C.',
     long_description=long_description,
     long_description_content_type='text/x-rst',
 
     # The project's main homepage.
-    url='https://github.com/arturo182/arturo182_CircuitPython_bbq10keyboard',
+    url='https://github.com/solderparty/arturo182_CircuitPython_bbq10keyboard',
 
     # Author details
     author='arturo182',
