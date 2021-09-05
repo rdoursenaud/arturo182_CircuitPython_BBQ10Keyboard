@@ -177,8 +177,13 @@ class BBQ10Keyboard:
             self._buffer[0] = _REG_RST
             i2c.write(self._buffer, end=1)
 
-        # need to wait!
-        time.sleep(0.05)
+        # Wait for controller to really be ready
+        while True:
+            try:
+                self._read_register(_REG_VER)
+                break
+            except OSError:
+                continue
 
     @property
     def version(self):
